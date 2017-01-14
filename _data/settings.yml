@@ -1,9 +1,9 @@
 #-------------------------------
 # General Site Settings
 
-title: Paul Le
-description: I like to learn
-email: l.nguyen.paul@gmail.com
+title: Artists Theme
+description: Thinker // Designer // YouTuber
+email: devtipsfordesigners@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
@@ -39,18 +39,21 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **I like to learn and create.** I am a recent graduate with a degree in physics and a focus on astrophysics. That being said, I have developed a passion for computer programming, and am in the process of exploring computer science and computer programming through person projects, which you view over at my [GitHub](http://github.com/LeNPaul){:target="_blank"}.
+  **Travis specializes in making things** for human people.
+  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
+  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
+  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
 
 
-#skills:
-#- {name: Communication, value: '9'}
-#- {name: Organization, value: '7'}
-#- {name: Learning, value: '10'}
-#- {name: Teaching, value: '6'}
-#- {name: Planning, value: '7'}
-#- {name: Visual Design, value: '5'}
-#- {name: UX Design, value: '8'}
-#- {name: Programming, value: '6'}
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Teaching, value: '6'}
+- {name: Planning, value: '7'}
+- {name: Visual Design, value: '5'}
+- {name: UX Design, value: '8'}
+- {name: Programming, value: '6'}
 
 #-------------------------------
 # Work Section
@@ -93,14 +96,16 @@ clients:
   quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
   logo: 'logo4.png'}
 
+
 #-------------------------------
 # Contact Section
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/LeNPaul/'}
-- {icon: 'twitter', link: 'https://www.twitter.com/Paululele'}
-- {icon: 'instagram', link: 'https://www.instagram.com/Paululele'}
+- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
+- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
+- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
+- {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
