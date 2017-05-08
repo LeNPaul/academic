@@ -50,10 +50,10 @@ blurb: >
 
 projects:
 - {name: 'Lagrange Jekyll Theme', folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: 'Millennial Jekyll Theme', folder: 'proj-2', image: 'millennial-site.jpg'}
-- {name: 'Weather App', folder: 'proj-3', image: 'weather-app.png'}
-- {name: 'Quote App', folder: 'proj-4', image: 'quote-app.png'}
-- {name: 'Wikipedia App', folder: 'proj-5', image: 'wikipedia-app.png'}
+- {name: 'Millennial Jekyll Theme', folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: 'Weather App', folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: 'Quote App', folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: 'Wikipedia App', folder: 'proj-5', file: 'work/proj-5.html'}
 
 
 
