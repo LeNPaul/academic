@@ -1,11 +1,9 @@
 #-------------------------------
 # General Site Settings
 
-title: Artists Theme
-description: Thinker // Designer // YouTuber
-email: devtipsfordesigners@gmail.com
-
-# NOTE: The Logo and Background image are defined in the all.sass document.
+title: Paul Le
+description: Front End Developer
+email: l.nguyen.paul@gmail.com
 
 menu:
 - {name: 'Projects', url: ''}
@@ -36,14 +34,19 @@ seo:
 #-------------------------------
 # About Section
 
-# NOTE: The avatar is defined in the all.sass document.
+about: >
+  # I’m a physics major turned programmer
 
-blurb: >
-  **Travis specializes in making things** for human people.
-  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
-  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
-  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
+    Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Under Projects, you will find some of my favourite things that I have built over the years. You may find everything else on my [Github](http://github.com/lenpaul) and [Code Pen](https://codepen.io/lenpaul) profiles. You may also [download a copy of my resume](resume-paul-le.pdf).
 
+    I strongly believe that online open education is the future of education. One organization that I believe is leading this movement for computer programming is Free Code Camp. Some of my projects are those that I have developed through Free Code Camp’s Front End Development curriculum. You may view them all on my [Code Pen](https://codepen.io/lenpaul) profile.
+
+    At heart, I will always love physics. Something that I did not know going into university was how closely related computer programming and physics are, and how much programming actually goes on in physics. Ever since I first learned how to program through studying physics, I have been hooked. As a result, some of my favourite projects are those that I have done relating to computational physics.
+
+contact: >
+  # Contact
+
+  You may contact me [through my email](mailto:l.nguyen.paul@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40paululele).
 
 #-------------------------------
 # Work Section
@@ -54,7 +57,6 @@ projects:
 - {name: 'Weather App', folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: 'Quote App', folder: 'proj-4', file: 'work/proj-4.html'}
 - {name: 'Wikipedia App', folder: 'proj-5', file: 'work/proj-5.html'}
-
 
 
 #-------------------------------

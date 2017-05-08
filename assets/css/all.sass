@@ -3,13 +3,6 @@
 
 @import '1-tools/-tools-dir'
 
-//------------------------------------------------
-// Transition the image paths from the settings file to usable SASS variables
-$animation: {{ site.data.layout.animation }}
-$logo-path: '{{ site.data.layout.logo }}'
-$hero-path: '{{ site.data.layout.hero }}'
-$avatar-path: '{{ site.data.layout.avatar }}'
-
 $projects: {% for project in site.data.settings.projects %} "{{ project.folder }}", {% endfor %}
 
 //------------------------------------------------
