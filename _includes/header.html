@@ -1,12 +1,14 @@
-<header id="header">
+<header>
+
+  <div class="logo">
+    <a href="/">Paul Le</a>
+  </div>
 
   <nav>
-    {% for item in site.data.settings.menu %}
-      <a href="{{ item.url }}">{{ item.name }}</a>
-    {% endfor %}
+    <a href="/">Projects</a>
+    <a href="/blog.html">Blog</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
   </nav>
-
-  <h1><span>{{ site.data.settings.title }}</span></h1>
-  <p class="kicker">{{ site.data.settings.description }}</p>
 
 </header>

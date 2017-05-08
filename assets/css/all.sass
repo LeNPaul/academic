@@ -15,6 +15,7 @@ $projects: {% for project in site.data.settings.projects %} "{{ project.folder }
 //------------------------------------------------
 // Set some colors as sass variables
 
+$accent-color: #BD5248
 $accent: {{ site.data.layout.accent }}
 $accent-light: adjust-hue(saturate(lighten($accent, 11%), 12.6%), 14%)
 $selectionColor: lighten($accent, 30%)

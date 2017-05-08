@@ -14,26 +14,22 @@
   <title>{{ site.data.settings.title }}</title>
 
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
   {% include analytics.html %}
 </head>
 <body>
 
-{% include header.html %}
+<div class="site-container">
 
-{% include about.html %}
+  {% include header.html %}
 
-{% include work.html %}
+  {% include work.html %}
 
-{% include clients.html %}
+  {% include footer.html %}
 
-{% include contact.html %}
-
-{% include form.html %}
-
-
-{% include footer.html %}
+</div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="{{ site.github.url }}/assets/js/functions.js"></script>

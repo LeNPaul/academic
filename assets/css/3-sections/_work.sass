@@ -1,130 +1,76 @@
-.section-work
-  overflow-x: hidden
-
-/* Hackey-type CSS as a jQuery Alternative for when the browser does not have jQuery enabled. */
-.noscript
-  display: none
-
-@each $proj in $projects
-  ##{$proj}:checked ~ .work-belt .work-wrap .work-container noscript #content-#{$proj}
-    display: block
-
-.return
-  display: none
-
-.trigger
-  display: none
-
-  &:checked ~ .work-belt
-    left: -100%
-
-    .work-wrap .work-container
-      display: block
-/* End of gross / hackey CSS */
+//.section-work
+  overflow: hidden
 
 .work-belt
   width: 200%
   position: relative
   left: 0%
-  +transition(all, 800ms)
-
-  &.slided
-    +transform(translate3d(-50%, 0, 0))
+  overflow: hidden
+  +transition
 
 .thumb-wrap, .work-wrap
   width: 50%
   float: left
 
 .thumb-container
-  display: block
-  max-width: 960px
-  margin: 0px auto
+  max-width: 750px
+  margin: 0px auto 0px
+  padding: 30px
   +clearfix
 
-  label
-    position: relative
-    display: block
-    float: left
-    width: 25%
+  .thumb-unit
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
     cursor: pointer
-
-    .thumb-unit
-      display: block
-      overflow: hidden
-
-      img
-        display: block
-        max-width: 100%
-
-    @media screen and (max-width: 760px)
-      width: 50%
+    display: block
+    width: 600px
+    height: 300px
+    margin: 0px auto 30px
+    position: relative
+    overflow: hidden
+    background:
+      position: center center
+      repeat: no-repeat
+      size: cover
 
     .thumb-overlay
-      +position(absolute)
+      +position(absolute, 100% 0px null 0px)
+      height: 100%
+      background: fade-out(#333, 0.5)
+      text-align: center
+      +transition
+      +display(flex)
       +align-items(center)
       +justify-content(space-around)
-      +display(flex)
-      background: fade-out($accent, 0.1)
-      text-align: center
-      @extend %animationstart_#{$animation}
 
       strong
         display: block
-        padding: 0 9%
+        padding: 20px
         color: white
-        font:
-          weight: 300
-          size: 24px
-        text-transform: uppercase
         line-height: 1.2
+        font:
+          size: 24px
+          weight: 300
 
-    &:hover
-      z-index: 2
-
-      .thumb-overlay
-        @extend %#{$animation}
-
+    &:hover .thumb-overlay
+      +position(absolute, 0px 0px null 0px)
 
 .work-container
-  max-width: 600px
-  margin: 0px auto
-  padding: 0 15px
-  +box-sizing(border-box)
-
+  max-width: 750px
+  margin: 0px auto 0px
   position: relative
   display: none
 
-  h4, noscript h4
-    color: $accent
-    font-weight: 300
-    text-transform: uppercase
-    font-size: 28px
-    line-height: 1.2
-    margin: 0 0 20px
+  h4
+    color: $accent-color
+    font:
+      weight: 300
+      size: 24px
+      line-height: 1.2
 
   img
     max-width: 100%
-    margin-bottom: 20px
 
   .work-return
-    +size(40px)
     cursor: pointer
-    opacity: 0.5
-    +position(absolute, -4px null null -60px)
-
-    path
-      fill: rgba(0,0,0,0.4)
-
-    &:hover
-      opacity: 1
-
-
-
-@media (max-width: 740px)
-  .work-container
-
-    .work-return
-      left: 0px
-
-    h4
-      margin-left: 60px
+    font:
+      size: 24px
