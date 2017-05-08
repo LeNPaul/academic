@@ -25,7 +25,6 @@ function smoothScroll (duration) {
 	});
 }
 
-
 function workBelt() {
   $('.thumb-unit').click(function() {
     $('.work-belt').css('left','-100%');
@@ -51,9 +50,6 @@ function workLoad() {
     $('.project-title').text(newTitle);
   });
 }
-
-
-
 
 function clientStuff() {
 
