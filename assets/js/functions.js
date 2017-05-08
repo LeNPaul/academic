@@ -45,7 +45,7 @@ function workLoad() {
     newTitle = $this.find('strong').text(),
     newFolder = $this.data('folder'),
     spinner = '<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i><span class="sr-only">Loading...</span>',
-    newHTML = '{{ site.github.url }}/work/' + newFolder + '.html';
+    newHTML = newFolder + '.html';
     $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);
   });
