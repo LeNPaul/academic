@@ -1,0 +1,17 @@
+title: 'Jekyll Starter Kit'
+tagline: 'A simple framework for starting your own Jekyll project'
+description: 'A simple framework for starting your own Jekyll project'
+
+author:
+  name: 'Paul Le'
+
+menu:
+# Uncomment to activate the menu looping function in the header.html file under _includes
+#- {name: 'About', url: 'about.html'}
+
+social:
+- {icon: 'github', link: 'https://www.github.com/lenpaul'}
+- {icon: 'twitter', link: 'https://twitter.com/paululele'}
+- {icon: 'instagram', link: 'https://instagram.com/paululele'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/lenpaul/'}
+- {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
