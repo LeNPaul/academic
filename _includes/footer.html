@@ -1,0 +1,13 @@
+<footer class="pt-5 my-5 text-muted border-top">
+  <div class="row">
+    <div class="col-md-6">
+      <p>Created by <a href="mailto:{{ site.email }}">{{ site.title }}</a> &middot; &copy; {{ 'now' | date: "%Y" }}</p>
+      <p>Built in Toronto, Canada &middot; (<a href="https://github.com/LeNPaul/full-circle">view source</a>)</p>
+    </div>
+    <div class="col-md-6 text-end social-media-icons">
+      {% for item in site.social %}
+        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>
