@@ -1,5 +1,4 @@
 menu:
-- {name: 'home', path: '', url: ''}
 - {name: 'people', path: '', url: ''}
 - {name: 'publications', path: '', url: ''}
 - {name: 'courses', path: '', url: ''}

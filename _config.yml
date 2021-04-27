@@ -2,3 +2,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "academic" # the name of your site, e.g. ACME Corp.
 description: "a Jekyll theme for academia"
+
+social:
+- {icon: 'github', link: 'https://github.com/LeNPaul'}
+- {icon: 'twitter', link: 'https://twitter.com/paululele'}
+- {icon: 'instagram', link: 'https://instagram.com/paululele'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
