@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: home
 title: "Home"
 ---
 
-# Home
+This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, and anything else they may want to put out into the world.
 
-This is the home page.
-
-{{ site.github.url }}
+Academics can use this home page to describe their research interests or provide an introduction to their research group.
