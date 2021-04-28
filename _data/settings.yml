@@ -3,3 +3,7 @@ menu:
 - {name: 'publications', path: '', url: ''}
 - {name: 'courses', path: '', url: ''}
 - {name: 'cv', path: '', url: ''}
+
+publications:
+- {name: 'Pudritz, R.E. & Kevlahan, N.K.-R. 2013 Shock interactions, turbulence and the origin of the stellar mass spectrum. Phil. Trans. R. Soc.  A 2013 371, 20120248 doi:10.1098/rsta.2012.0248', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
+- {name: 'Adhesion-induced fingering instabilities in thin elastic films under strain, Benjamin Davis-Purcell, Pierre Soulard, Thomas Salez, Elie Raphael, KDV', url: 'https://arxiv.org/abs/1712.08544'}

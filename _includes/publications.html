@@ -1,0 +1,8 @@
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
+      {% for item in site.data.settings.publications %}
+        <p><a href="{{ item.url }}" class="text-dark text-decoration-none">{{ item.name }}</a></p>
+      {% endfor %}
+  </div>
+</div>
