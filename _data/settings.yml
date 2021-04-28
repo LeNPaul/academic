@@ -3,6 +3,7 @@ menu:
 - {name: 'publications', path: '', url: ''}
 - {name: 'courses', path: '', url: ''}
 - {name: 'cv', path: '', url: ''}
+- {name: 'contact', path: '', url: ''}
 
 publications:
 - {name: 'Pudritz, R.E. & Kevlahan, N.K.-R. 2013 Shock interactions, turbulence and the origin of the stellar mass spectrum. Phil. Trans. R. Soc.  A 2013 371, 20120248 doi:10.1098/rsta.2012.0248', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
