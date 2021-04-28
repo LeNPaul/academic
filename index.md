@@ -1,8 +1,10 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Home"
 ---
 
-## You're ready to go!
+# Home
 
-Start developing your Jekyll website.
+This is the home page.
+
+{{ site.github.url }}
