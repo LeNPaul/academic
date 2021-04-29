@@ -3,11 +3,11 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
-        <p><a href="{{ item.url }}" class="text-dark text-decoration-none">{{ item.name }}</a></p>
+        <p><a href="{{ item.url }}" class="text-dark">{{ item.name }}</a></p>
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <p><a href="{{ item.url }}" class="text-dark text-decoration-none">{{ item.name }}</a></p>
+        <p><a href="{{ item.url }}" class="text-dark">{{ item.name }}</a></p>
       {% endfor %}
     {% endif %}
   </div>
