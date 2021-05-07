@@ -5,5 +5,10 @@ menu:
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
-contact:
+courses:
+- {name: 'Vector Calculus', url: 'calculus'}
+- {name: 'Quantum Mechanics', url: 'calculus'}
+- {name: 'Stellar Structures', url: 'calculus'}
+
+contacts:
 - {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
