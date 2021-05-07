@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Calculus"
+title: "Stellar Structures"
 ---
 
 [Course Outline](/pdf/1501.07274.pdf)
