@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Lab Technician"
+title: "Primary Investigator"
 ---
 
-This is the lab technician.
+This is the primary investigator.
