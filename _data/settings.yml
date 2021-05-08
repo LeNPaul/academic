@@ -5,6 +5,11 @@ menu:
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
+people:
+- {name: 'Primary Investigator', bio: 'Professor', email: 'hello@university.edu', url: 'primary-investigator', image: 'assets/img/primary-investigator.jpg'}
+- {name: 'Lab Technician', bio: 'Professor', email: 'hello@university.edu', url: 'primary-investigator', image: 'assets/img/lab-technician.jpg'}
+- {name: 'Graduate Student', bio: 'Professor', email: 'hello@university.edu', url: 'graduate-student', image: 'assets/img/graduate-student.jpg'}
+
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
 - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
