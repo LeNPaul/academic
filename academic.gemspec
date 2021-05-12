@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "academic"
   spec.version       = "0.1.0"
   spec.authors       = ["Paul Le"]
-  spec.email         = ["l.nguyen.paul@gmail.com"]
+  spec.email         = ["hello@paulle.ca"]
 
   spec.summary       = "Jekyll theme for academia."
   spec.homepage      = "https://github.com/LeNPaul/academic"
