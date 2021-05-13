@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sample Post"
+title: "Class Update"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat quam vel augue sollicitudin mollis in quis lorem. Nunc congue risus id lorem accumsan malesuada. Quisque odio velit, faucibus ac urna id, tristique scelerisque elit. Morbi tempor interdum ligula, gravida sagittis purus aliquam non. Vivamus vulputate risus orci, eu dictum lectus consectetur sed. Maecenas tempus ligula eget faucibus tincidunt. Donec imperdiet ut diam nec fermentum. Donec finibus quis orci vitae iaculis. Fusce sed est est. Vivamus augue ligula, lobortis in felis et, gravida tincidunt tellus. Maecenas volutpat ultricies ornare. Aliquam fringilla ex dictum maximus aliquet. Sed et scelerisque diam, quis semper sapien. Maecenas ut ante nunc. Cras in turpis ut orci dignissim facilisis ac eget est. Vestibulum et congue arcu.
