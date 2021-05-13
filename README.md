@@ -30,6 +30,10 @@ Or install it yourself as:
 
 The following sections describe usage instructions for this Jekyll theme,including available layouts, includes, sass and/or assets.
 
+#### Home
+
+The `_layouts/home.html` layout defines the home page for this theme. An introduction to your research group or to yourself can be provided, along with a list of featured publications. There is also a section for providing any updates through posts placed in the `_posts` directory.
+
 #### People
 
 The `_layouts/people.html` layout can be used to showcase and describe people in your research group. People are defined in the `_data/settings.yml` file, and markdown pages for each person with the `_layouts/page.html` layout can be placed in the `people` directory.
