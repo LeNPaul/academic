@@ -6,9 +6,9 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 people:
-- {name: 'Primary Investigator', bio: 'Professor', email: 'hello@university.edu', url: 'primary-investigator', image: 'assets/img/primary-investigator.jpg'}
-- {name: 'Lab Technician', bio: 'Professor', email: 'hello@university.edu', url: 'primary-investigator', image: 'assets/img/lab-technician.jpg'}
-- {name: 'Graduate Student', bio: 'Professor', email: 'hello@university.edu', url: 'graduate-student', image: 'assets/img/graduate-student.jpg'}
+- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
+- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
