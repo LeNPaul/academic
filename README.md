@@ -19,13 +19,13 @@ A Jekyll theme designed for academia, although you can use it for almost any oth
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "academic"
+gem "academic-jekyll-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: academic
+theme: academic-jekyll-theme
 ```
 
 And then execute:
@@ -34,7 +34,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install academic
+    $ gem install academic-jekyll-theme
 
 ## Usage
 
