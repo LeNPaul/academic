@@ -12,6 +12,8 @@ A Jekyll theme designed for academia, although you can use it for almost any oth
 
 * Provide updates to your students and faulty.
 
+For a guide on how to deploy a Jekyll site using GitHub Pages, please check out [this article](https://paulle.ca/jekyll-tutorials/deploy-jekyll-site-github-pages).
+
 If you like my work then please consider supporting me with [Ko-fi](https://ko-fi.com/paulle).
 
 ## Installation
