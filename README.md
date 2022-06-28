@@ -10,7 +10,7 @@ A Jekyll theme designed for academia, although you can use it for almost any oth
 
 * Manage courses that you are teaching.
 
-* Provide updates to your students and faulty.
+* Provide updates to your students and faculty.
 
 For a guide on how to deploy a Jekyll site using GitHub Pages, please check out [this article](https://paulle.ca/jekyll-tutorials/deploy-jekyll-site-github-pages).
 
