@@ -1,4 +1,4 @@
 ---
-layout: Resume
-title: "Resume"
+layout: cv
+title: "CV"
 ---
