@@ -21,4 +21,4 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/ekim71'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Eunbi Kim', title: 'Graduate Student', department: 'Applied Data Science', institution: 'Syracuse University', institution_address: 'Syracuse, NY', email: 'ekim71@syr.edu', image: 'assets/img/contact.jpg'}
