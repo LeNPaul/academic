@@ -1,3 +1,7 @@
+people > About
+publications > Projects
+cv > Resume
+
 # academic
 
 ### A Jekyll theme for academia
