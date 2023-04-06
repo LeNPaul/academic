@@ -1,11 +1,10 @@
 ---
 layout: page
-title: "Primary Investigator"
+title: "Healthcare Price Prediction Model"
 ---
 
-# Healthcare Price Prediction Model
 *****
-## SUMMARY
+### SUMMARY
 This capstone project in one of the classes in my master program is about the prediction model related to the healthcare price. <br>
 R code is available on the link [Code](https://github.com/joyinning/r_healthcare_price_prediction/blob/main/Healthcare_price_prediction_112022.md)
 <br>
