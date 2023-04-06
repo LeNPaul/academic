@@ -16,7 +16,7 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/joyinning/joyinning.github.io.git'}
+- {icon: 'github', link: 'https://joyinning.github.io/'}
 - {icon: 'instagram', link: 'https://instagram.com/code_joyinning'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/ekim71'}
 
