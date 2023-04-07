@@ -10,9 +10,7 @@ people:
 - {name: Who Wrote the Disputed Essays?, url: 'lab-technician'}
 
 courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
+- {name: 'Applied Machine Learning', url: 'vector-calculus'}
 
 social:
 - {icon: 'github', link: 'https://joyinning.github.io/'}
