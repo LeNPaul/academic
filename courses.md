@@ -1,4 +1,4 @@
 ---
 layout: courses
-title: "Courses"
+title: "Self-Study"
 ---
