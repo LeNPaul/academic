@@ -2,36 +2,37 @@ name: Fetch MLB Standings
 
 on:
   schedule:
-    # Runs daily at 12:00 PM UTC
-    - cron: "0 12 * * *"
+    - cron: "0 12 * * *"  # Run daily at 12:00 PM UTC
   workflow_dispatch: # Allow manual trigger
 
 jobs:
   fetch_standings:
     runs-on: ubuntu-latest
+
     steps:
-      # Checkout repository
-      - uses: actions/checkout@v3
- 
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
       # Set up Python
-      - name: Set up Python
+      - name: Set up Python 3.9
         uses: actions/setup-python@v4
         with:
           python-version: "3.9"
- 
-      # Install dependencies
+
+      # Install requests library
       - name: Install dependencies
         run: pip install requests
- 
-      # Run the script
-      - name: Fetch MLB Standings
-        run: python fetch_mlb_standings.py
 
-      # Commit changes
-      - name: Commit Standings
+      # Execute the Python script
+      - name: Fetch MLB Standings
+        run: python scripts/fetch_mlb_standings.py
+
+      # Commit and push changes
+      - name: Commit updated standings file
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add mlb_standings.json
-          git commit -m "Automated update: MLB Standings [$(date)]"
+          git add _data/mlb_standings.json
+          git commit -m "Update MLB standings: $(date)"
           git push
